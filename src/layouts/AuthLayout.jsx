@@ -5,7 +5,7 @@ import useAuth from "../hooks/useAuth";
 const AuthLayout = () => {
   const { auth, cargando } = useAuth();
 
-  if (cargando) return "";
+  // if (cargando) return "";
 
   if (auth?._id) return <Navigate to={"/proyectos"} replace={true} />;
   return (
