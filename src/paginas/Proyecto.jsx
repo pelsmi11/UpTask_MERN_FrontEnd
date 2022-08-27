@@ -4,7 +4,7 @@ import useProyectos from "../hooks/useProyectos";
 import useAdmin from "../hooks/useAdmin";
 import ModalFormularioTarea from "../components/ModalFormularioTarea";
 import ModalEliminarTarea from "../components/ModalEliminarTarea";
-import ModalEliminarColaborador from "../components/ModaleliminarColaborador";
+import ModalEliminarColaborador from "../components/ModalEliminarColaborador";
 import Tarea from "../components/Tarea";
 import Colaborador from "../components/Colaborador";
 import Alerta from "../components/Alerta";
