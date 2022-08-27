@@ -15,6 +15,7 @@ const AuthProvider = ({ children }) => {
       setCargando(true);
       const token = localStorage.getItem("token");
       if (!token) {
+        console.log("no token");
         setCargando(false);
         return;
       }
@@ -32,6 +33,7 @@ const AuthProvider = ({ children }) => {
         setAuth(data);
         // navigate("/proyectos");
       } catch (error) {
+        console.log(error);
         setAuth({});
       } finally {
         setCargando(false);
